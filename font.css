@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Quartz";
+  src: url("quartz.woff2") format("woff2"),
+       url("quartz.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 👇 ejemplo global */
+body {
+  font-family: "Quartz", sans-serif;
+}
